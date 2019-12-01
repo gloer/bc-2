@@ -1,0 +1,37 @@
+.top-nav {
+    display: flex;    
+    flex-direction: row;
+}
+
+.logo-link {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-link p {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.search-container {
+    background-color: white;
+    width: 56.5rem;
+    height: 5rem;
+    border-radius: 4rem;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto;
+}
+
+.search-input {
+    border: none;
+    padding: 0.5rem;
+}
+
+.search-input:focus {
+    outline: none;
+}

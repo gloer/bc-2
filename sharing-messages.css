@@ -1,0 +1,38 @@
+.front-message {
+    display: grid;    
+    border-radius: 2rem;        
+    gap: 1.5rem;    
+    margin-bottom: 6rem;
+}
+
+.front-message-top {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto; 
+    gap: 1rem;
+    align-items: center;
+}
+
+.front-message-profile {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.front-message-top h2 {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+}
+
+.front-message-top p {
+    font-size: 1.1rem;
+}
+
+.save-icon {
+    justify-self: end;
+    margin-left: 0.5rem;
+}
+
+.message-icon {
+    justify-self: end;
+    margin-right: 0.5rem;
+}
+

@@ -1,0 +1,134 @@
+.sharing {
+    display: grid;
+    background-color: black;
+    border-radius: 2rem;
+    padding-top: 1.7rem;
+    padding-bottom: 0;
+    gap: 0.8rem;
+    overflow: hidden;
+    margin-bottom: 6rem;
+}
+
+.sharing > * {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+.sharing-top {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sharing-profile {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.sharing-top h2 {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+}
+
+.sharing-top p {
+    font-size: 1.1rem;
+}
+
+.sharing-what {
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: white;
+    padding: 0.5rem 0;
+    margin-bottom: .5rem;
+    width: 100%;
+}
+
+.sharing-what:focus {
+    outline: none;
+}
+
+.sharing-navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #0d0d0d;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.sharing-navbar-left {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.sharing-navbar-right {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.sharing-navbar-right input[type=checkbox] {
+    background-color: #262626;
+}
+
+.btn-share {
+    background-color: #ffb397;
+    padding: 1rem 3.2rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.sharing-sound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;    
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+}
+.col-grid {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.label-grid {
+    gap: 0.5rem;
+}
+
+.label-grid span {
+    user-select: none;
+}
+
+.cb-div {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #262626;
+    border-radius: 0.5rem;
+}
+
+.cb {
+    display: none;
+}
+
+.cb + svg {
+    display: none;
+}
+
+.cb:checked + svg {
+    display: inline-block;
+}
