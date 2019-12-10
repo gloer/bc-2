@@ -6,11 +6,23 @@ footer {
     left: 0;
     bottom: 0;
     
+    
 }
 
 .footer-content {
+    position: relative;
     max-width: 1440px;
     height: 100%;
     margin: auto;
-    background-color: #ccc;
+    background-color: #000;
+    padding: 1rem;
+
+}
+
+.player-progress {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -9px;
+    border-radius: 0;
 }
