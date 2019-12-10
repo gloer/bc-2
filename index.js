@@ -1,4 +1,8 @@
 const track01 = document.querySelector("#track-01");
+const track02 = document.querySelector("#track-02");
+const track03 = document.querySelector("#track-03");
+const track04 = document.querySelector("#track-04");
+const track05 = document.querySelector("#track-05");
 
 const draw = (elem)  => {
     const ctx = elem.getContext("2d");
@@ -33,3 +37,7 @@ const draw = (elem)  => {
 }
 
 draw(track01);
+draw(track02);
+draw(track03);
+draw(track04);
+draw(track05);
