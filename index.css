@@ -18,6 +18,7 @@ body {
     min-height: 100vh; /* Fjern dennee */
     margin: 0 auto;
     background-color: #151515;
+    position: relative;
 }
 
 .main-front {

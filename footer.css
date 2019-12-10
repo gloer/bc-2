@@ -1,0 +1,16 @@
+
+footer {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    
+}
+
+.footer-content {
+    max-width: 1440px;
+    height: 100%;
+    margin: auto;
+    background-color: #ccc;
+}
